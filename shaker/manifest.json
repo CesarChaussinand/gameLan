@@ -1,12 +1,12 @@
 {
   "name": "Faust shaker",
   "short_name": "shaker",
-  "start_url": "/shaker/index.html",
+  "start_url": "/gameLan/shaker/index.html",
   "description": "Progressive Web App for shaker",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "scope": "/shaker/",
+  "scope": "/gameLan/shaker/",
   "orientation": "portrait",
   "icons": [
     {
