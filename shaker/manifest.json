@@ -1,12 +1,12 @@
 {
-  "name": "Faust shaker",
-  "short_name": "shaker",
-  "start_url": "/shaker/index.html",
-  "description": "Progressive Web App for shaker",
+  "name": "Faust untitled",
+  "short_name": "untitled",
+  "start_url": "/untitled/index.html",
+  "description": "Progressive Web App for untitled",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "scope": "/shaker/",
+  "scope": "/untitled/",
   "orientation": "portrait",
   "icons": [
     {

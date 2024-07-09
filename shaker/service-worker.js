@@ -1,18 +1,18 @@
 
-const CACHE_NAME = 'shaker-static'; // Cache name without versioning
+const CACHE_NAME = 'untitled-static'; // Cache name without versioning
 
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME).then(cache => {
             console.log("Service worker installed");
             return cache.addAll([
-                '/shaker/',
-                '/shaker/faust-ui/index.js',
-                '/shaker/faust-ui/index.css',
-                '/shaker/faustwasm/index.js',
-                '/shaker/shaker.js',
-                '/shaker/shaker.wasm',
-                '/shaker/shaker.json',
+                '/untitled/',
+                '/untitled/faust-ui/index.js',
+                '/untitled/faust-ui/index.css',
+                '/untitled/faustwasm/index.js',
+                '/untitled/untitled.js',
+                '/untitled/untitled.wasm',
+                '/untitled/untitled.json',
             ]).catch(error => {
                 // Catch and log any errors during the caching process
                 console.error('Failed to cache resources during install:', error);
